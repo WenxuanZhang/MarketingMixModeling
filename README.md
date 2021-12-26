@@ -1,12 +1,9 @@
 
-# R Shiny
+# Marketing Mix Modeling 
 
-R Shiny has become a popular tool to develop data product. This project will leverage shinymanager package tocreate an app with authentication.
-
-If you have any questions, please reach out to ll.wxzhang@gmail.com
+Marketing Mix Model is one of the most frequently used tech when it comes to media performance analysis. This app iscreated to provide a tool for marketing mix modeling  and media mix optimization.
 
 # Reference
-https://datastorm-open.github.io/shinymanager/
 
 
 
