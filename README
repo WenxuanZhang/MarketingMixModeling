@@ -1,0 +1,11 @@
+#R Shiny
+
+R Shiny has become a popular tool to develop data product. This project will leverage shinymanager package tocreate an app with authentication.
+
+If you have any questions, please reach out to ll.wxzhang@gmail.com
+
+#Reference
+https://datastorm-open.github.io/shinymanager/
+
+
+
