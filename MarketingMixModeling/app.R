@@ -1,15 +1,10 @@
 ################################################################################################################################
 
-wants <- c('tidyr','lubridate','tibble','data.table','knitr','caret','boot',
-           'ggplot2','gridExtra','pander','ggthemes','scales','foreign','magrittr','reshape2','glmnet',
-           'mgcv','cvTools','rpart','class','psych','stringr','rpart.plot',
-           'randomForest','corrplot','bit64','dplyr','readxl','openxlsx',
-           'stringr','shiny','shinydashboard','shinyWidgets','DT','rhandsontable','shinyMatrix',
-           'BBmisc','plotly','rlang','shinyalert','shinymanager')
 
-has <- wants %in% rownames(installed.packages())
-if(any(!has))install.packages(wants[!has])
-lapply(wants,library, character.only = T)
+library(shiny)
+library(shinymanager)
+library(shinydashboard)
+library(data.table)
 
 inactivity <- "function idleTimer()
 var t = setTimeout(logout, 1200000);
